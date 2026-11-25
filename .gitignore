@@ -1,0 +1,20 @@
+# build output
+build/
+dist/
+*.spec.bak
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local safety copies made before big refactors
+.backup/
+
+# vendor SDK binaries are proprietary: never commit them
+sdk/*.dll
+sdk/*.lib
+
+# local test files and recordings
+*.h264
+*.mkv
+*.mp4
+config.json
